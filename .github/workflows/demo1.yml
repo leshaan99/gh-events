@@ -1,5 +1,8 @@
 name: Events Demo 1
-on: ...
+on:
+  pull_request:
+    types:
+      - opend
 jobs:
   deploy:
     runs-on: ubuntu-latest
